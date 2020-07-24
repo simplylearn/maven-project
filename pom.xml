@@ -206,6 +206,7 @@
     </dependencies>
   </dependencyManagement>
 
+<!-- additoin-->
   <scm>
     <connection>scm:git:git@github.com:simplylearn/maven-project.git</connection>
     <developerConnection>scm:git:git@github.com:simplylearn/maven-project.git</developerConnection>
