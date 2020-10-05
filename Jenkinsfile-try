@@ -4,12 +4,13 @@ pipeline{
     stages{
         stage("git checkout"){
             steps{
-               git credentialsId: 'github', url: 'https://github.com/simplylearn/maven-project'
+                
+                git credentialsId: 'github', url: 'https://github.com/simplylearn/maven-project'
             }
         }
         stage(" maven build"){
-        steps{
-            sh "mvn clean package"
+            steps{
+                sh "mvn clean package"
             }
         }
     }   
